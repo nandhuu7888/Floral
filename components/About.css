@@ -1,0 +1,75 @@
+/* About.css */
+
+/* Styles for the container div */
+.destination {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling for the heading */
+.destination h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Styling for the first description */
+.first-des {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the image */
+.first-des img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the social media icons */
+.social-media-icons {
+  margin-top: 30px;
+}
+
+/* Styling for the social media icons */
+.social-media-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for social media icons */
+.social-media-icons a:hover {
+  color:black; 
+}
+
+
+.about-content {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin-top: 20px;
+}
+
+.text-content {
+  width: 50%;
+  height:top; 
+}
+
+.image-content {
+  width: 40%; 
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+}
+
+/* Your other styles */
+.bold-words {
+  font-weight: bold;
+}
